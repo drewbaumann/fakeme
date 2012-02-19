@@ -3498,3 +3498,7 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
+
+.highlighter {
+  background: yellow;
+}
