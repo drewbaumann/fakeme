@@ -110,7 +110,9 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #000000;
+  /*background-image: url(http://storage.skotzko.com/darkbar.jpg);*/
+  background-image: url(/images/darkbar.jpg);
 }
 a {
   color: #0088cc;
@@ -3462,6 +3464,7 @@ a.thumbnail:hover {
 }
 .hero-unit {
   padding: 60px;
+  margin-top: 30px;
   margin-bottom: 30px;
   background-color: #f5f5f5;
   -webkit-border-radius: 6px;

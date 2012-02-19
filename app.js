@@ -4,7 +4,8 @@
  */
 
 var express = require('express')
-  , routes = require('./routes');
+  , routes = require('./routes/index')
+  , id = require('./routes/id');
   
 var everyauth = require('everyauth');
 
@@ -45,6 +46,8 @@ app.configure('production', function(){
 
 app.get('/', routes.index);
 everyauth.helpExpress(app);
+
+app.get('/id', id.id);
 
 
 app.listen(3000);
