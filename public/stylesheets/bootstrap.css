@@ -112,7 +112,8 @@ body {
   color: #333333;
   background-color: #000000;
   /*background-image: url(http://storage.skotzko.com/darkbar.jpg);*/
-  background-image: url(/images/darkbar.jpg);
+  background-image: url(/images/grid.jpg);
+  background-repeat: repeat;
 }
 a {
   color: #0088cc;
@@ -264,6 +265,7 @@ a:hover {
   width: 940px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
   *zoom: 1;
 }
 .container:before, .container:after {
