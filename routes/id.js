@@ -11,5 +11,6 @@ exports.id = function(req, res){
   var city = Faker.Address.city();
   var state = Faker.Address.usState();
   var company = Faker.Company.companyName();
-  res.render('id', { title: 'The Fake me', first_name: first_name, last_name: last_name, city: city, state: state, company: company  })
+  var description = Faker.Occupation.stupidOccupation();
+  res.render('id', { title: 'Rule 15', first_name: first_name, last_name: last_name, city: city, state: state, company: company, description: description })
 };
